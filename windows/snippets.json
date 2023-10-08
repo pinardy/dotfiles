@@ -1,0 +1,49 @@
+{
+	"console.log": {
+		"scope": "javascript,typescript",
+		"prefix": "clg",
+		"body": [
+			"console.log('$1: ', $1);",
+		],
+		"description": "Log output to console"
+	},
+	"highlight console.log": {
+		"scope": "javascript,typescript",
+		"body": [
+			"console.log('${TM_SELECTED_TEXT}: ', ${TM_SELECTED_TEXT});",
+		],
+		"description": "Log output to console"
+	},
+	"logger.info": {
+		"scope": "javascript,typescript",
+		"prefix": "lgi",
+		"body": [
+			"logger.info('$1: ', $1);",
+		],
+		"description": "Log (info) output to console"
+	},
+  "debug stringify": {
+		"scope": "javascript,typescript",
+		"prefix": "clgj",
+		"body": [
+			"console.log('$1: ', JSON.stringify($1, null, 2));",
+		],
+		"description": "Log prettified JSON stringify output to console"
+	},
+  "describe": {
+		"scope": "javascript,typescript",
+		"prefix": "desc",
+		"body": [
+			"describe('$1', () => {$2});",
+		],
+		"description": "Describe block for test cases"
+	},
+  "it test": {
+		"scope": "javascript,typescript",
+		"prefix": "ittest",
+		"body": [
+			"it('should $1', () => {$2});",
+		],
+		"description": "it block for test cases"
+	},
+}
