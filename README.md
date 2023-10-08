@@ -2,7 +2,7 @@
 
 > My dotfiles for Windows with [Git Bash](https://git-scm.com/downloads) and [Windows Terminal](https://github.com/microsoft/terminal).
 
-![Screenshot](https://i.imgur.com/n92OwgX.png)
+![Screenshot](https://raw.githubusercontent.com/pinardy/dotfiles/main/images/windows-terminal.PNG)
 
 ## Installation (Windows)
 
