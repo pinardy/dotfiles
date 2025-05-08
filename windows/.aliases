@@ -30,3 +30,10 @@ alias gl="git log"
 alias gf="git fetch"
 alias gp="git pull"
 alias gpr="git pull --rebase"
+
+# Kubernetes
+alias k="kubectl"
+
+# Docker
+alias d="docker"
+alias dc="docker-compose"
